@@ -401,7 +401,8 @@ A w jaki sposob mozemy cos zmienic w rekordzie? Innymi slowy: update lub setter.
 
 ```elm
 updatedPerson = 
-    { person | name = "Jane", age = 25 }  -- jesli chcemy update'owac wiecej niz jedno pole (key), mozemy je oddzielic przecinkami
+    { person | name = "Jane", age = 25 }  
+    -- jesli chcemy update'owac wiecej niz jedno pole (key), mozemy je oddzielic przecinkami
 
 -- teraz zobaczmy, co jest wewnatrz updatedPerson
 updatedPerson.name  -- "Jane"
@@ -957,7 +958,7 @@ Ta "petla" sie nie konczy 😎.
 
 # Appka CRUD (Create, Read, Update, Delete)
 
-https://ellie-app.com/97jH79vnpqTa1
+https://ellie-app.com/97qjntnnQ78a1
 
 
 # Uzyteczne linki
