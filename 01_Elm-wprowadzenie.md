@@ -787,6 +787,32 @@ case basementDoor of
         "Oops! Ten dom nie ma drzwi do piwnicy."
 ```
 
+## Let .. in
+
+Elm pozwala nam tworzyc tymczasowe funkcje wewnatrz innych funkcji.  
+  
+Najlepiej zobrazuje to prosty przyklad 😄
+
+```elm
+groupGreetings : List String -> List String
+groupGreetings names =
+    let
+        updatedNames =
+            List.map (\name -> "Hello, " ++ name ++ ".") names
+
+        newNames =
+            "Ahoy, Captain Nemo!" :: updatedNames
+    in
+        newNames
+
+-- teraz, wywolajmy funkcje z lista imion
+groupGreetings ["Ishmael", "Ned"]  -- ["Ahoy, Captain Nemo!", "Hello, Ishmael.", "Hello, Ned."]
+```
+
+W powyzszym przykladzie, funkcje `updatedNames` oraz `newNames` moga byc uzyte jedynie wewnatrz funkcji `groupGreetings`.  
+  
+`let .. in` mozemy uzywac w kazdej funkcji, nazwanej i anonimowej.
+
 
 # Elm CLI
 
@@ -965,7 +991,10 @@ https://ellie-app.com/97qjntnnQ78a1
 
 * [Ellie](https://ellie-app.com/new)
 * [Glitch](https://glitch.com/search?q=elm&activeFilter=project)
+* [Elm](https://elm-lang.org/)
+* [Elm Guide](https://guide.elm-lang.org/)
 * [Elm-UI](https://package.elm-lang.org/packages/mdgriffith/elm-ui/latest/)
 * [Elm-Live](https://www.elm-live.com/)
 * [Elm-Format](https://github.com/avh4/elm-format)
-* [Awesome Elm](https://github.com/sporto/awesome-elm)
+* [Awesome Elm](https://github.com/sporto/awesome-elm) - a list of Elm resources
+* [Elm Companies](https://github.com/jah2488/elm-companies/blob/master/README.md) - companies using Elm
