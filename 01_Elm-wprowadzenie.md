@@ -316,8 +316,8 @@ Integer poddaje sie typowym dzialaniom matematycznym.
 4 + 4
 4 - 4
 4 * 4
-4 / 4
-4 -- 4
+4 // 4
+4 ^ 4
 ```
 
 Poniewaz `+`, `-`, etc. to w Elm funkcje (`(+)`, `(-)`, etc.), mozemy tez uzywac je w ten sposob:
@@ -326,8 +326,8 @@ Poniewaz `+`, `-`, etc. to w Elm funkcje (`(+)`, `(-)`, etc.), mozemy tez uzywac
 (+) 4 4
 (-) 4 4
 (*) 4 4
-(/) 4 4
-(--) 4 4
+(//) 4 4
+(^) 4 4
 ```
 
 
@@ -346,7 +346,6 @@ Podobnie jak integer, float poddaje sie typowym dzialaniom matematycznym.
 4.0 - 4.5
 4.0 * 4.5
 4.0 / 4.5
-4.0 -- 4.5
 4.0 ^ 4.5
 ```
 
