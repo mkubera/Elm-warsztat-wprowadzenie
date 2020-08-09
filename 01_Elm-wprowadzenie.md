@@ -1,6 +1,18 @@
-# Czym jest Elm?
 
-Elm to jezyk stworzony do pisania aplikacji webowych, ktory kompiluje sie do JavaScript. Stworzony w 2012 roku przez Evana Czaplickiego, jego syntax jest silnie zainspirowany funkcyjnym jezykiem Haskell.
+# Spis tresci
+- [Czym jest Elm](#czym-jest-elm)
+- [Koncepty funkcyjnego programowania](#koncepty-funkcyjnego-programowania)
+- [Typy danych](#typy-danych)
+- [Elm CLI](#elm-cli)
+- [Pierwszy program](#pierwszy-program)
+- [Architektura Elm](#architektura-elm)
+- [Appka CRUD](#appka-crud)
+- [Uzyteczne linki](#uzyteczne-linki)
+
+
+# Czym jest Elm
+
+[Elm](https://en.wikipedia.org/wiki/Elm_(programming_language)) to jezyk stworzony do pisania aplikacji webowych, ktory kompiluje sie do [JavaScript](https://en.wikipedia.org/wiki/JavaScript). Stworzony w 2012 roku przez [Evana Czaplickiego](https://github.com/evancz), jego syntax jest silnie zainspirowany funkcyjnym jezykiem [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language)).
 
 ## Alternatywa dla JavaScript
 
